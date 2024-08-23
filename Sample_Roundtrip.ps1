@@ -1,7 +1,7 @@
 # Define the client ID, client secret, and tenant ID for authentication
-$clientId = "TwP3Buz6FY8mbTRdZcRSUDh5ICSDiToK"          # Change this with your actual client ID
-$clientSecret = "jhkZRC487OUJ-a2KXAi2T9Vo1oBR80XEdWxf7TsXyXwW5VVaPWHpvGfNRdxXsjCu"  # Change this with your actual client secret
-$lcTenant = "53c38504df93bc162367bd54"      # Change this with your actual tenant ID
+$clientId = "{YOUR_CLIENT_ID}"          # Change this with your actual client ID
+$clientSecret = "{YOUR_CLIENT_SECRET}"  # Change this with your actual client secret
+$lcTenant = "{YOUR_TENANT_ID}"      # Change this with your actual tenant ID
 
 # Clear the console to start with a clean output screen
 Clear-Host
@@ -148,7 +148,7 @@ Write-Host "`nSample text file created at: $filePath" -ForegroundColor Cyan
 # Get the due date 7 days from now and format it to YYYY-MM-DDTHH-MMZ
 $dueDate = (Get-Date).AddDays(7)
 $projectDueDate = $dueDate.ToString("yyyy-MM-ddTHH:mmZ")  # Format to desired string
-
+c
 # Define project parameters
 $projectName = "Sample Project"
 $projectDueDate = $projectDueDate
